@@ -1,0 +1,245 @@
+.title_box{
+	width: calc(100% - 2rem);
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	box-shadow: 0px 1px 4px lightblue;
+	border-radius: 0.6rem;
+	margin-bottom: 0.5rem;
+	background-color: white;
+}
+
+.title_box .basic_title_box{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+
+.title_box .basic_title_box .title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.title_box .basic_title_box .detail{
+	font-size: 0.8rem;
+	color: #101010
+}
+
+.title_box .basic_title_box .detail span{
+	margin-right: 0.4rem;
+}
+
+
+.title_box .information_box{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 0.8rem;
+}
+
+.title_box .information_box .id_box{
+	font-size: 0.7rem;
+	color: cadetblue;
+	margin-bottom: 0.5rem;
+}
+
+
+
+
+.stock_box{
+	width: calc(100% - 2rem);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px 4px lightblue;
+	border-radius: 0.6rem;
+	margin-bottom: 0.5rem;
+	background-color: white;
+}
+
+.stock_box .date_box{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.stock_box .year_month{
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #444444;
+}
+
+.stock_box .stock_details{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 0 0 0;
+}
+
+.stock_box .stock_details .detail_box{
+	width: 25%;
+	height: 4rem;
+	display: block;
+	border-radius: 0.3rem;
+	box-shadow: 0px 1px 4px lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.stock_box .stock_details .detail_box img{
+	height: 1.6rem;
+	margin-left: 0.5rem;
+}
+
+.stock_box .stock_details .detail{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.stock_box .stock_details .detail .title{
+	font-size: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+.stock_box .stock_details .detail .name{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.stock_box .stock_details .detail .name span{
+	font-size: 0.8rem;
+	color: black;
+}
+
+
+
+
+.storage_box{
+	width: calc(100% - 2rem);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	box-shadow: 0px 1px 4px lightblue;
+	border-radius: 0.6rem;
+	margin-bottom: 0.5rem;
+	background-color: white;
+}
+
+.storage_box .title{
+	font-size: 0.8rem;
+	margin-bottom: 0.75rem;
+	font-weight: bold;
+}
+
+.storage_box .overview_box{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.storage_box .overview_box .storage_details{
+	width: calc(48% - 2rem);
+	padding: 0 1rem;
+	height: 3rem;
+	border-radius: 0.6rem;
+	box-shadow: 0px 1px 4px lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.storage_box .overview_box .storage_details span:nth-child(1){
+	font-size: 0.8rem;
+}
+
+.storage_box .overview_box .storage_details span:nth-child(2){
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.storage_box .material{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 0.8rem;
+}
+
+.storage_box .material .title{
+	font-size: 0.8rem;
+	width: 100%;
+}
+
+.storage_box .material ul{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 32% 32% 32%;
+	grid-template-rows: auto;
+	grid-row-gap: 0.4rem;
+	grid-column-gap: 2%;
+}
+
+.storage_box .material li{
+	width: calc(100% - 1rem);
+	box-shadow: 0px 1px 4px lightgray;
+	border-radius: 0.25rem;
+	font-size: 0.8rem;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.storage_box .material li .id{
+	font-size: 0.6rem;
+	color: cadetblue;
+} 
+
+.storage_box .material li .name{
+	font-size: 0.8rem;
+	line-height: 1rem;
+	padding: 0.3rem 0;
+	color: darkslategrey;
+	text-align: center;
+}
+
+.storage_box .material li .amount{
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.storage_box .material li div:nth-child(3) span{
+	font-size: 0.8rem;
+	color: dimgrey
+}
+
+
+
+
+h1{
+	font-size: 1.3rem;
+	color: mediumvioletred;
+	font-weight: 100;
+	display: inline;
+	padding: 0.5rem 0 0.4rem 0;
+}
+
