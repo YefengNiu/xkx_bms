@@ -202,7 +202,7 @@
 	box-shadow: 0px 1px 4px lightgray;
 	border-radius: 0.25rem;
 	font-size: 0.8rem;
-	padding: 0.5rem;
+	padding: 0.4rem 0.5rem 0.5rem 0.5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -210,14 +210,14 @@
 }
 
 .storage_box .material li .id{
-	font-size: 0.6rem;
-	color: cadetblue;
+	font-size: 0.5rem;
+	color: lightblue;
 } 
 
 .storage_box .material li .name{
 	font-size: 0.8rem;
 	line-height: 1rem;
-	padding: 0.3rem 0;
+	padding: 0.2rem 0 0.2rem 0;
 	color: darkslategrey;
 	text-align: center;
 }
@@ -231,6 +231,51 @@
 	font-size: 0.8rem;
 	color: dimgrey
 }
+
+
+
+.license_box{
+	width: calc(100% - 2rem);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	box-shadow: 0px 1px 4px lightblue;
+	border-radius: 0.6rem;
+	margin-bottom: 0.5rem;
+	background-color: white;
+}
+
+.license_box .title{
+	width: 100%;
+	padding-bottom: 0.5rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.license_box .detail{
+	width: calc(100% - 1rem);
+	box-shadow: 0px 1px 4px lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.8rem;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.license_box .detail .number{
+	color: mediumvioletred;
+	font-size: 0.7rem;
+}
+
+.license_box .detail .expiry_date{
+	color: lightslategray;
+	font-size: 0.7rem;
+}
+
+
 
 
 
