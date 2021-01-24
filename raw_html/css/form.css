@@ -5,17 +5,18 @@
 .modal input[type=text],
 .modal input[type=password] {
 	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
+	padding: 0.75rem 1.25rem;
+	margin: 0.5rem 0;
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 	border-radius: 0.625rem;
+	font-size: 1rem;
 }
 
 .modal .confirmbtn {
 	border: 1px solid green;
-	border-radius: 4px;
+	border-radius: 0.25rem;
 	padding: 0.4rem 1.3rem;
 	font-weight: bold;
 	color: green;
@@ -27,7 +28,7 @@
 .modal .cancelbtn {
 	border: 1px solid red;
 	border-radius: 4px;
-	padding: 7.5px 15px;
+	padding: 0.5rem 0.9375rem;
 	font-weight: bold;
 	color: red;
 	cursor: pointer;
@@ -36,17 +37,18 @@
 }
 
 .modal .container1 {
-	padding: 30px 30px 10px 30px;
+	padding: 1.875rem 1.875rem 0.625rem 1.875rem;
 }
 
 .modal .container2 {
-	padding: 20px 30px 20px 30px;
+	padding: 1.25rem 1.875rem;
 	background-color: #f1f1f1;
 }
 
 .modal span.psw {
 	float: right;
-	padding-top: 16px;
+	padding-top: 1rem;
+	font-size: 1rem;
 }
 
 
@@ -56,7 +58,7 @@
 }
 
 .modal .row span{
-	font-size: 0.875rem;
+	font-size: 0.9rem;
 	font-weight: bold;
 }
 
@@ -78,18 +80,19 @@
 	-webkit-appearance: none;
 	-moz-appearance: none; */
 	background-color: white;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	margin-top: 0.125rem;
 	cursor: pointer;
-	padding: 0.1rem 0.2rem;
+	padding: 0.5rem;
 	margin-right: 1.5rem;
+	margin: 0.625rem 0;
 }
 
 /* The Modal (background) */
 
 .modal {
 	position: fixed;
-	z-index: 100;
+	z-index: 300;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -127,9 +130,9 @@
 /* Modal Content/Box */
 
 .modal .modal-content {
-	max-width: 500px;
+	max-width: 31.25rem;
 	background-color: #fefefe;
-	margin: 5% auto 15% auto;
+	margin: 30% auto 10% auto;
 	border-radius: 1.25rem;
 	width: 80%;
 }
@@ -165,7 +168,7 @@
 
 /* Change styles for span and cancel button on extra small screens */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 18.75rem) {
 	span.psw {
 		display: block;
 		float: none;
