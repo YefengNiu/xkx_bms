@@ -1,15 +1,14 @@
-html{
+html {
 	font-size: 35px;
 }
 
-
-body{
-	padding: 0 0.125rem;
+body {
+	padding: 0 0.125rem 0 0;
 	background-color: #f6f6f6;
 }
 
-header{
-	width: 100%;
+header {
+	width: calc(100% - 2rem);
 	background-color: white;
 	position: fixed;
 	top: 0px;
@@ -19,29 +18,108 @@ header{
 	box-shadow: 0px 1px 4px #D3D3D3;
 	z-index: 100;
 	padding: 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-main{
+main {
 	margin-top: 4.5rem;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
 	margin: 0;
 }
 
 
-button,input,select{
+button,
+input,
+select {
 	outline: none;
 }
 
-li, ul, span{
+li,
+ul,
+span {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
+footer {
+	height: 3rem;
+	width: calc(100% - 3rem);
+	padding: 0.5rem 0.5rem;
+	background-color: white;
+	position: fixed;
+	left: 1rem;
+	bottom: 1rem;
+	border-radius: 0.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 2px 6px lightslategrey;
+	color: mediumvioletred;
+	font-weight: bold;
+	font-size: 1rem;
+}
 
-.tag{
+.footer_section {
+	padding: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer_search_bar {
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	border: 2px solid mediumvioletred;
+	background-color: #f2f2f2;
+	color: white;
+	--placeholder-color: gray;
+	margin-right: 0.2rem;
+}
+
+.footer_btn {
+	padding: 0.4rem 0.7rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	color: mediumvioletred;
+	background-color: white;
+	border: mediumvioletred 2px solid;
+}
+
+input::-webkit-input-placeholder {
+	color: var(--placeholder-color);
+}
+
+input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: var(--placeholder-color);
+}
+
+input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: var(--placeholder-color);
+}
+
+input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: var(--placeholder-color);
+}
+
+.footer_placeholder {
+	height: 5rem;
+}
+
+.tag {
 	font-size: 0.7rem;
 	color: white;
 	font-weight: bolder;
@@ -50,7 +128,6 @@ li, ul, span{
 	width: max-content;
 	display: inline;
 }
-
 
 .btn-default {
 	padding: 0.3125rem 1rem;
@@ -91,14 +168,13 @@ li, ul, span{
 	color: green;
 }
 
-
 .btn-style-orange {
 	background-color: white;
 	border-color: orangered;
 	color: orangered;
 }
 
-.flex{
+.flex {
 	display: flex;
 	justify-content: center;
 	justify-content: center;
