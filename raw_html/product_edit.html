@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Product editor</title>
+		<!-- static -->
+		<link rel="stylesheet" type="text/css" href="./css/common.css" />
+		<!-- dynamic -->
+		<link rel="stylesheet" type="text/css" href="./css/product_edit.css" />
+	</head>
+	<body>
+		<header>
+			<div id="login">返回</div>
+			<div>编辑商品</div>
+			<div>牛夜风</div>
+		</header>
+		<main>		
+			<div class="list_box flex_between">
+				<span class="title">商品名：</span>
+				<input class="input_line" type="text" id="name" placeholder="请输入商品名">
+			</div>
+			
+			<div class="list_box flex_between">
+				<span class="title">ID：</span>
+				<input class="input_line" type="text" id="name" placeholder="请输入符合规范的ID号码">
+			</div>
+			
+			<div class="list_box">
+				<span>公司：</span>
+				<select>
+				  <option value="true">新科信</option>
+				  <option value="false">都帮生物</option>
+				</select>
+				<span>品牌：</span>
+				<select>
+				  <option value="true">自营</option>
+				  <option value="false">思佰瑞</option>
+					<option value="false">葛兰汀</option>
+					<option value="false">益宏源</option>
+					<option value="false">鼎红国际</option>
+				</select>
+			</div>
+			
+			<div class="list_box">
+				<span>是否为国标品：</span>
+				<select>
+				  <option value="true">是</option>
+				  <option value="false">否</option>
+				</select>
+				
+				<span>产品状态：</span>
+				<select>
+				  <option value="true">正常</option>
+				  <option value="false">停产</option>
+				</select>
+			</div>
+			
+			<div class="list_box">
+				<div>包材使用列表（单件）：</div>
+				<ul>
+					<li>
+						<div class="left">
+							<div class="id_status flex_between">
+								<div>CP.SCN.TZ.003</div>
+								<div>状态：正常</div>
+							</div>
+							<div class="name_amount flex_between">
+								<input disabled="disabled" type="" id="" placeholder="请输入包材名称" value="新仔猪羔羊痢疾停纸盒A"/>
+								<input disabled="disabled" type="" id="" placeholder="数量" value="30"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green">修改</button>
+							<button class="btn-default btn-style-orange">删除</button>
+						</div>
+					</li>
+					
+					<li>
+						<div class="left">
+							<div class="id_status flex_between">
+								<div>--.---.--.---</div>
+								<div>状态： --</div>
+							</div>
+							<div class="name_amount flex_between">
+								<input type="" id="" placeholder="请输入包材名称"/>
+								<input type="" id="" placeholder="数量"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green">保存</button>
+							<button class="btn-default btn-style-orange">清空</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="list_box">
+				<div>原料使用列表（单件）：</div>
+				<ul>
+					<li>
+						<div class="left">
+							<div class="id_status flex_between">
+								<div>CP.SCN.TZ.003</div>
+								<div>单位：kg</div>
+							</div>
+							<div class="name_amount flex_between">
+								<input style="width: calc(70% - 1.2rem);" disabled="disabled" type="" id="" placeholder="请输入包材名称" value="头孢噻呋钠"/>
+								<input style="width: calc(30% - 1.2rem);" disabled="disabled" type="" id="" placeholder="数量" value="0.003"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green">修改</button>
+							<button class="btn-default btn-style-orange">删除</button>
+						</div>
+					</li>
+					
+					<li>
+						<div class="left">
+							<div class="id_status flex_between">
+								<div>--.---.--.---</div>
+								<div>状态： --</div>
+							</div>
+							<div class="name_amount flex_between">
+								<input style="width: calc(70% - 1.2rem);" type="" id="" placeholder="请输入原料名称"/>
+								<input style="width: calc(30% - 1.2rem);" type="" id="" placeholder="用量"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green">保存</button>
+							<button class="btn-default btn-style-orange">清空</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="list_box">
+				<div>其他成本（元 - 每件）：</div>
+				<ul>
+					<li>
+						<div class="left">
+							<div class="name_amount flex_between">
+								<span>能源费用：</span>
+								<input style="width: calc(30% - 1.2rem);" disabled="disabled" type="" id="" placeholder="价格" value="0"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green" >修改</button>
+						</div>
+					</li>
+					
+					<li>
+						<div class="left">
+							<div class="name_amount flex_between">
+								<span>人工费用：</span>
+								<input style="width: calc(30% - 1.2rem);" disabled="disabled" type="" id="" placeholder="价格" value="0"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green" >修改</button>
+						</div>
+					</li>
+					
+					<li>
+						<div class="left">
+							<div class="name_amount flex_between">
+								<span>附加费用：</span>
+								<input style="width: calc(30% - 1.2rem);" disabled="disabled" type="" id="" placeholder="价格" value="0"/>
+							</div>
+						</div>
+						<div class="right">
+							<button class="btn-default btn-style-white-green" >修改</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+		</main>
+	</body>
+
+
+</html>

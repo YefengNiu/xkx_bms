@@ -1,5 +1,5 @@
 .title_box{
-	width: calc(100% - 2rem);
+	width: calc(100% - 2rem - 0.3125rem);
 	padding: 1rem;
 	display: flex;
 	justify-content: space-between;
@@ -27,7 +27,7 @@
 
 .title_box .basic_title_box .detail{
 	font-size: 0.8rem;
-	color: #101010
+	color: #101010;
 }
 
 .title_box .basic_title_box .detail span{
