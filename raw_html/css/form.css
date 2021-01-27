@@ -3,7 +3,8 @@
 }
 
 .modal input[type=text],
-.modal input[type=password] {
+.modal input[type=password],
+.modal input[type=number]{
 	width: 100%;
 	padding: 0.75rem 1.25rem;
 	margin: 0.5rem 0;
@@ -132,7 +133,7 @@
 .modal .modal-content {
 	max-width: 31.25rem;
 	background-color: #fefefe;
-	margin: 30% auto 10% auto;
+	margin: 20% auto 10% auto;
 	border-radius: 1.25rem;
 	width: 80%;
 }
