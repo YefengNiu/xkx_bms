@@ -144,9 +144,10 @@ input:-ms-input-placeholder {
 	color: white;
 	font-weight: bolder;
 	border-radius: 4px;
-	padding: 0.2rem 0.2rem;
+	padding: 0.2rem 0.3rem;
 	width: max-content;
 	display: inline;
+	margin-right: 0.3rem;
 }
 
 .btn-default {
@@ -247,4 +248,10 @@ input:-ms-input-placeholder {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.flex_end{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center
 }
