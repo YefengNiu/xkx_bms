@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Product_cost</title>
+		<!-- static -->
+		<link rel="stylesheet" type="text/css" href="./css/common.css" />
+		<!-- dynamic -->
+		<link rel="stylesheet" type="text/css" href="./css/product_cost.css" />
+		<link rel="stylesheet" type="text/css" href="./css/form.css" />
+		<!-- script for responsive -->
+		<script type="text/javascript" src="./js/responsive.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="login">返回</div>
+			<div>成本核算</div>
+			<div>牛夜风</div>
+		</header>
+		<main>
+			<div class="title_box" style="border-left: lightseagreen 0.3125rem solid">
+				<div class="basic_title_box">
+					<div class="tag_bar">
+						<div class="tag" style="background-color: blueviolet;">新科信</div>
+						<div class="tag" style="background-color: orangered;">孙成年订</div>
+					</div>
+					<div class="title">
+						<h1>新仔猪羔羊犊牛救命星A+B</h1>
+					</div>
+					<div class="detail">
+						<span>A: 黄芪多糖注射液</span>
+						<span>B: 注射用头孢噻夫纳</span>
+					</div>
+				</div>
+				<div class="information_box">
+					<div class="id_box">XKX - CP.SCN.TZ.003</div>
+					<div>状态：<span style="color: seagreen">正常</span></div>
+					<div>禽药</div>
+					<div>(10ml+20ml)*10支*20套</div>
+				</div>
+			</div>
+			
+			<div class="summary_box">
+				<ul>
+					<li>
+						<div class="titie">2020/12/25 核算成本：</div>
+						<div class="cost">¥ 355.00</div>
+					</li>
+					<li>
+						<div class="titie">当前成本：</div>
+						<div class="cost">¥ 366.12</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="info_box">
+				<ul>
+					<li>
+						<div class="titie">包材成本</div>
+						<div class="cost">¥ 72.34</div>
+					</li>
+					<li>
+						<div class="titie">原料成本</div>
+						<div class="cost">¥ 72.34</div>
+					</li>
+					<li>
+						<div class="titie">其他成本</div>
+						<div class="cost">¥ 72.34</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="cost_box">
+				<div class="main_info flex_between">
+					<div class="titie">包材成本（每件）</div>
+					<div class="cost">¥ 72.34</div>
+				</div>
+				<ul>
+					<li>
+						<div class="name_amount">新仔猪羔羊犊牛救命星A纸盒 * 20个</div>
+						<div class="cost">¥ 20.00</div>
+					</li>
+					<li>
+						<div class="name_amount">10ml国标瓶 * 400个</div>
+						<div class="cost">¥ 14.00</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="cost_box">
+				<div class="main_info flex_between">
+					<div class="titie">原料成本（每件）</div>
+					<div class="cost">¥ 72.34</div>
+				</div>
+				<ul>
+					<li>
+						<div class="name_amount">头孢噻呋钠 * 0.035十亿</div>
+						<div class="cost">¥ 180.00</div>
+					</li>
+					<li>
+						<div class="name_amount">丙二醇 * 400kg</div>
+						<div class="cost">¥ 14.00</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="cost_box">
+				<div class="main_info flex_between">
+					<div class="titie">其他成本（每件）</div>
+					<div class="cost">¥ 72.34</div>
+				</div>
+				<ul>
+					<li>
+						<div class="name_amount">能源费用</div>
+						<div class="cost">¥ 50.00</div>
+					</li>
+					<li>
+						<div class="name_amount">人工费用</div>
+						<div class="cost">¥ 40.00</div>
+					</li>
+					<li>
+						<div class="name_amount">附加费用</div>
+						<div class="cost">¥ 30.00</div>
+					</li>
+				</ul>
+			</div>
+		</main>
+		
+		<div class="footer_placeholder"></div>
+		<footer>
+			<div class="wrap">
+				<div class="footer_section">
+					<button style="border-color: green; color: green;" type="button" class="footer_btn">设定核算成本</button>
+				</div>
+				<div class="footer_section">
+					<button type="button" class="footer_btn">退出</button>
+				</div>
+			</div>
+		</footer>
+		
+		<!-- <div class="modal hidden" id="login-form">
+		  <form class="modal-content animation-fadein-top">
+		    <div class="container1">
+		      <div class="title">
+		        Login
+		      </div>
+		      <div class="row">
+		          <span>Username:</span>
+		          <input type="text" placeholder="username">
+		      </div>
+		      <div class="row">
+		          <span>Password:</span>
+		          <input type="password" placeholder="password">
+		      </div>
+		      <div class="row">
+		          <span>Confirm Password:</span>
+		          <input type="password" placeholder="re-enter password">
+		      </div>
+					<div class="row">
+						<div>
+							<span>Option bar1：</span>
+							<select>
+							  <option value="">--</option>
+							  <option>111</option>
+								<option>222</option>
+							</select>
+						</div>
+						<div>
+							<span>Status：</span>
+							<select>
+							  <option value="true">Enable</option>
+							  <option value="false">Disable</option>
+							</select>
+						</div>
+					</div>
+		    </div>
+		
+		    <div class="container2">
+		      <button type="button" class="btn-default btn-style-green">Login</button>
+		      <button type="button" class="btn-default btn-style-orange" id="close-form">Cancel</button>
+		    </div>
+				<script>
+					let login = document.getElementById('login')
+					let closeForm = document.getElementById('close-form');
+					let loginForm = document.getElementById('login-form');
+					login.onclick = function(){
+						loginForm.style.display = "block"
+					}
+					closeForm.onclick = function(){
+						loginForm.style.display = "none"
+					}
+				</script>
+		  </form>
+		</div>
+		 -->
+	</body>
+
+
+</html>

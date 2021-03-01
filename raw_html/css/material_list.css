@@ -1,0 +1,59 @@
+.material_list_box{
+	width: 100%
+}
+
+.material_list_box ul li{
+	width: calc(100% - 1.6rem - 0.3125rem);
+	padding: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 1px 4px lightblue;
+	border-radius: 0.3rem;
+	margin-bottom: 0.4rem;
+	background-color: white;
+}
+
+.material_list_box ul li .info{
+	width: 60%;
+}
+
+.material_list_box ul li .info .id{
+	font-size: 0.6rem;
+	color: cadetblue;
+}
+
+.material_list_box ul li .info .name{
+	color: darkslategray;
+	margin-top: 0.1rem;
+	font-size: 1.1rem;
+}
+
+.material_list_box ul li .number{
+	width: 15%;
+}
+
+.material_list_box ul li .number .title{
+	font-size: 0.6rem;
+	color: darkgrey;
+}
+
+.material_list_box ul li .number .data{
+	color: black;
+	margin-top: 0.2rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.material_list_box ul li .operation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.material_list_box ul li .operation button{
+	font-size: 1rem;
+	padding: 0.4rem 1rem;
+	margin: 0;
+}
+
